@@ -20,11 +20,27 @@ void draw(){
   ellipse(x - 50, y - 50, 40, 40); // left eye socket
   ellipse(x + 50, y - 50, 40, 40); // right eye socket
 
+fill(30,200,);//mouth
+ellipse(x,y, 50, 60);
+
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+fill(10,10,10);//left pupil
+ellipse(x-50, y-50, 20, 10);
 
+fill(10,10,10);//right pupil
+ellipse(x+50, y-50, 20, 10);
+
+fill(255, 209, 220);//blush
+ellipse(x+70, y-10, 25, 15)
+
+fill(255, 209, 220);//blush
+ellipse(x-70, y-10, 25, 15)
+
+x = mouseX
+y = mouseY
 }
 
 
